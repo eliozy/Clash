@@ -128,39 +128,39 @@ dns:
 proxies:
   # Shadowsocks 支持 aead_aes_128_gcm/aead_aes_192_gcm/aead_aes_256_gcm/aead_chacha20_poly1305/aes-128-ctr/aes-192-ctr/aes-256-ctr/aes-128-cfb/aes-192-cfb/aes-256-cfb/chacha20-ietf/xchacha20/chacha20/rc4-md5/xchacha20-ietf-poly1305 加密格式
   # Vmess 支持 auto/aes-128-gcm/chacha20-poly1305/none 加密方式
-  - name: '🇭🇰 Hong Kong 01', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30001, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇭🇰 Hong Kong 02', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30002, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇭🇰 Hong Kong 03', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30003, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇭🇰 Hong Kong 04', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30004, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇭🇰 Hong Kong 05', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30032, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇭🇰 Hong Kong 06', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30033, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇭🇰 Hong Kong 07', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30034, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇭🇰 Hong Kong 08', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30035, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇯🇵 Japan 01', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30005, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇯🇵 Japan 02', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30006, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇯🇵 Japan 03', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30007, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇯🇵 Japan 04', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30008, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇯🇵 Japan 05', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30036, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇯🇵 Japan 06', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30037, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇯🇵 Japan 07', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30038, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇯🇵 Japan 08', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30039, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇸🇬 Singapore 01', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30021, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇸🇬 Singapore 02', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30022, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇸🇬 Singapore 03', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30023, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇸🇬 Singapore 04', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30024, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇨🇳 Taiwan 01', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30017, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇨🇳 Taiwan 02', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30018, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇺🇸 United States 01', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30013, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇺🇸 United States 02', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30014, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇺🇸 United States 03', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30015, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇺🇸 United States 04', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30016, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇩🇪 Germany 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30009, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇩🇪 Germany 02', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30010, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇩🇪 Germany 03', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30011, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇩🇪 Germany 04', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30012, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇰🇷 South Korea 01', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30027, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇳🇱 Netherlands 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30029, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
-  - name: '🇬🇧 United Kingdom 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30031, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+    - { name: '🇭🇰 Hong Kong 01', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30001, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇭🇰 Hong Kong 02', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30002, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇭🇰 Hong Kong 03', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30003, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇭🇰 Hong Kong 04', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30004, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇭🇰 Hong Kong 05', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30032, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇭🇰 Hong Kong 06', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30033, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇭🇰 Hong Kong 07', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30034, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇭🇰 Hong Kong 08', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30035, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇯🇵 Japan 01', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30005, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇯🇵 Japan 02', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30006, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇯🇵 Japan 03', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30007, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇯🇵 Japan 04', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30008, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇯🇵 Japan 05', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30036, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇯🇵 Japan 06', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30037, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇯🇵 Japan 07', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30038, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇯🇵 Japan 08', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30039, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇸🇬 Singapore 01', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30021, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇸🇬 Singapore 02', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30022, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇸🇬 Singapore 03', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30023, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇸🇬 Singapore 04', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30024, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇨🇳 Taiwan 01', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30017, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇨🇳 Taiwan 02', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30018, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇺🇸 United States 01', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30013, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇺🇸 United States 02', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30014, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇺🇸 United States 03', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30015, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇺🇸 United States 04', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30016, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇩🇪 Germany 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30009, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇩🇪 Germany 02', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30010, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇩🇪 Germany 03', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30011, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇩🇪 Germany 04', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30012, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇰🇷 South Korea 01', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30027, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇳🇱 Netherlands 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30029, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
+    - { name: '🇬🇧 United Kingdom 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30031, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true }
 
 proxy-providers:
 # 服务器节点订阅，默认使用 Dler Cloud 提供的托管转换器筛选节点
