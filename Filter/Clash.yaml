@@ -689,8 +689,8 @@ rules:
   - RULE-SET,ViuTV,🎥 国际媒体
   
   # 电报、微软、贝宝及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
-  - RULE-SET,Telegram,📡 电报服务
-  - RULE-SET,PayPal,💳 贝宝服务
+  - RULE-SET,Telegram
+  - RULE-SET,PayPal
   - RULE-SET,Microsoft,📦 微软服务
 
   # 必须规则
