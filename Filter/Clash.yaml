@@ -277,7 +277,7 @@ proxy-groups:
       - ❌ 拦截
       - ⭕️ 直连
   - name: "🇭🇰 香港节点"
-    type: fallback
+    type: select
     proxies:
      - 🇭🇰 Hong Kong 01
      - 🇭🇰 Hong Kong 02
@@ -288,7 +288,7 @@ proxy-groups:
      - 🇭🇰 Hong Kong 07  
      - 🇭🇰 Hong Kong 08
   - name: "🇸🇬 新加坡节点"
-    type: fallback
+    type: select
     proxies:
      - 🇸🇬 Singapore 01
      - 🇸🇬 Singapore 02
