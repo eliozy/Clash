@@ -128,236 +128,179 @@ dns:
 proxies:
   # Shadowsocks 支持 aead_aes_128_gcm/aead_aes_192_gcm/aead_aes_256_gcm/aead_chacha20_poly1305/aes-128-ctr/aes-192-ctr/aes-256-ctr/aes-128-cfb/aes-192-cfb/aes-256-cfb/chacha20-ietf/xchacha20/chacha20/rc4-md5/xchacha20-ietf-poly1305 加密格式
   # Vmess 支持 auto/aes-128-gcm/chacha20-poly1305/none 加密方式
+  - name: '🇭🇰 Hong Kong 01', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30001, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇭🇰 Hong Kong 02', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30002, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇭🇰 Hong Kong 03', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30003, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇭🇰 Hong Kong 04', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30004, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇭🇰 Hong Kong 05', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30032, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇭🇰 Hong Kong 06', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30033, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇭🇰 Hong Kong 07', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30034, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇭🇰 Hong Kong 08', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30035, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇯🇵 Japan 01', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30005, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇯🇵 Japan 02', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30006, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇯🇵 Japan 03', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30007, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇯🇵 Japan 04', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30008, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇯🇵 Japan 05', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30036, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇯🇵 Japan 06', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30037, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇯🇵 Japan 07', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30038, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇯🇵 Japan 08', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30039, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇸🇬 Singapore 01', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30021, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇸🇬 Singapore 02', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30022, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇸🇬 Singapore 03', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30023, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇸🇬 Singapore 04', type: ss, server: eagasdsg.tkvtkvktvktv.net, port: 30024, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇨🇳 Taiwan 01', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30017, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇨🇳 Taiwan 02', type: ss, server: ruhoeghk.tkvtkvktvktv.net, port: 30018, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇺🇸 United States 01', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30013, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇺🇸 United States 02', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30014, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇺🇸 United States 03', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30015, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇺🇸 United States 04', type: ss, server: jhnkrdus.tkvtkvktvktv.net, port: 30016, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇩🇪 Germany 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30009, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇩🇪 Germany 02', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30010, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇩🇪 Germany 03', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30011, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇩🇪 Germany 04', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30012, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇰🇷 South Korea 01', type: ss, server: gagsdajp.tkvtkvktvktv.net, port: 30027, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇳🇱 Netherlands 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30029, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
+  - name: '🇬🇧 United Kingdom 01', type: ss, server: hrdsuyweu.tkvtkvktvktv.net, port: 30031, cipher: chacha20-ietf-poly1305, password: 7856B92B-D99E-4756-AD14-48B27622C3CB, udp: true
 
 proxy-providers:
 # 服务器节点订阅，默认使用 Dler Cloud 提供的托管转换器筛选节点
 # 请填写 Encode 后的订阅链接，可到 https://www.urlencoder.org 进行转换
 # 若机场本身提供 Clash 格式节点订阅，可直接替换 url 后方链接使用
-  Proxies - HK:
-    type: http
-    url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E9%A6%99%E6%B8%AF%7CHK&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
-    interval: 3600
-    path: ./Proxies/HKList.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  Proxies - SG:
-    type: http
-    url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E6%96%B0%E5%8A%A0%E5%9D%A1%7CSG&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
-    interval: 3600
-    path: ./Proxies/SGList.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  Proxies - TW:
-    type: http
-    url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E5%8F%B0%E6%B9%BE%7CTW&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
-    interval: 3600
-    path: ./Proxies/TWList.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  Proxies - JP:
-    type: http
-    url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E6%97%A5%E6%9C%AC%7CJP&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
-    interval: 3600
-    path: ./Proxies/JPList.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  Proxies - KR:
-    type: http
-    url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E9%9F%A9%E5%9B%BD%7CKR&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
-    interval: 3600
-    path: ./Proxies/KRList.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  Proxies - US:
-    type: http
-    url: "https://api.dler.io/sub?target=clash&url=订阅链接&include=%E7%BE%8E%E5%9B%BD%7CUS&emoji=true&list=true&udp=true&tfo=true&scv=false&fdn=false&sort=false"
-    interval: 3600
-    path: ./Proxies/USList.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
 
 proxy-groups:
 # 默认注释网易云音乐 / Netflix / Disney Plus / Spotify / YouTube / Telegram / Microsoft / Steam / PayPal 规则及策略，如需使用请取消 # 备注，并修改 RULE-SET 位置策略名与之对应，或取消对应规则前的 # 备注
-  - name: "🚫 广告拦截"
-    type: select
-    proxies:
-      - ❌ 拦截
-      - ⭕️ 直连
   - name: "✈️ 国际代理"
     type: select
     proxies:
-      - 📌 手动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇺🇸 美国节点
       - ⭕️ 直连
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - 🇭🇰 Hong Kong 07  
+      - 🇭🇰 Hong Kong 08
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇯🇵 Japan 03
+      - 🇯🇵 Japan 04
+      - 🇯🇵 Japan 05
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇺🇸 United States 01
+      - 🇺🇸 United States 02
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 04
+      - 🇩🇪 Germany 01
+      - 🇩🇪 Germany 02
+      - 🇩🇪 Germany 03
+      - 🇩🇪 Germany 04
+      - 🇰🇷 South Korea 01
+      - 🇳🇱 Netherlands 01
+      - 🇬🇧 United Kingdom 01
   - name: "🥏 大陆网络"
     type: select
     proxies:
       - ⭕️ 直连
       - ✈️ 国际代理
+  - name: "🔗 其他"
+    type: select
+    proxies:
+      - ⭕️ 直连
+      - ✈️ 国际代理
+  - name: "📽 国内媒体"
+    type: select
+    proxies:
+      - ⭕️ 直连
+      - ✈️ 国际代理
+  - name: "🎥 国际媒体"
+    type: select
+    proxies:
+      - ⭕️ 直连
+      - ✈️ 国际代理
+      - 🇭🇰 香港节点
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+  - name: "🔖 人工智能"
+    type: select
+    proxies:
+      - ✈️ 国际代理
+      - 🇺🇸 美国节点
+  - name: "📡 电报服务"
+    type: select
+    proxies:
+      - ✈️ 国际代理
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+  - name: "📹 油管视频"
+    type: select
+    proxies:
+      - ✈️ 国际代理
+      - 🇭🇰 香港节点
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+  - name: "🎬 迪士尼+"
+    type: select
+    proxies:
+      - ✈️ 国际代理
+      - 🇭🇰 香港节点
+      - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
   - name: "🍏 苹果服务"
     type: select
     proxies:
       - ⭕️ 直连
       - ✈️ 国际代理
       - 🇺🇸 美国节点
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-  - name: "📽 国内媒体"
-    type: select
-    proxies:
-      - 🥏 大陆网络
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-  - name: "🎥 国际媒体"
-    type: select
-    proxies:
-      - ✈️ 国际代理
-      - 🇭🇰 香港节点
-      - 🇸🇬 新加坡节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇺🇸 美国节点
-      - ⭕️ 直连
-#  - name: "🎵 网易云音乐"
-#    type: select
-#    proxies:
-#      - 📽 国内媒体
-#      - ⭕️ 直连
-#  - name: "📺 网飞视频"
-#    type: select
-#    proxies:
-#      - 🎥 国际媒体
-#      - 🇸🇬 新加坡节点
-#      - 🇨🇳 台湾节点
-#      - ⭕️ 直连
-#  - name: "🎬 迪士尼+"
-#    type: select
-#    proxies:
-#      - 🎥 国际媒体
-#      - 🇭🇰 香港节点
-#      - 🇸🇬 新加坡节点
-#      - 🇨🇳 台湾节点
-#      - ⭕️ 直连
-#  - name: "🎧 声田音乐"
-#    type: select
-#    proxies:
-#      - 🎥 国际媒体
-#      - ⭕️ 直连
-#  - name: "📹 油管视频"
-#    type: select
-#    proxies:
-#      - 🎥 国际媒体
-#      - ⭕️ 直连
-#  - name: "📡 电报服务"
-#    type: select
-#    proxies:
-#      - ✈️ 国际代理
-#      - 🇸🇬 新加坡节点
-#      - 🇺🇸 美国节点
-#      - 🇭🇰 香港节点
-#      - ⭕️ 直连
-#  - name: "📦 微软服务"
-#    type: select
-#    proxies:
-#      - ⭕️ 直连
-#      - ✈️ 国际代理
-#  - name: "🎮 蒸汽游戏"
-#    type: select
-#    proxies:
-#      - ✈️ 国际代理
-#      - ⭕️ 直连
-#  - name: "💳 贝宝服务"
-#    type: select
-#    proxies:
-#      - ✈️ 国际代理
-#      - ⭕️ 直连
-  - name: "🔖 人工智能"
-    type: select
-    proxies:
-      - ✈️ 国际代理
-      - 🇺🇸 美国节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-  - name: "⏳ 网速测试"
+  - name: "📦 微软服务"
     type: select
     proxies:
       - ⭕️ 直连
-      - 📌 手动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - ✈️ 国际代理
       - 🇺🇸 美国节点
-  - name: "🔗 其他"
+  - name: "💳 贝宝服务"
     type: select
     proxies:
       - ✈️ 国际代理
+      - 🇺🇸 United States 03
+  - name: "🚫 广告拦截"
+    type: select
+    proxies:
+      - ❌ 拦截
       - ⭕️ 直连
   - name: "🇭🇰 香港节点"
     type: fallback
-    use:
-      - Proxies - HK
-    url: http://cp.cloudflare.com/generate_204
-    interval: 3600
-  - name: "🇨🇳 台湾节点"
-    type: fallback
-    use:
-      - Proxies - TW
-    url: http://cp.cloudflare.com/generate_204
-    interval: 3600
+   Proxies:
+     - 🇭🇰 Hong Kong 01
+     - 🇭🇰 Hong Kong 02
+     - 🇭🇰 Hong Kong 03
+     - 🇭🇰 Hong Kong 04
+     - 🇭🇰 Hong Kong 05
+     - 🇭🇰 Hong Kong 06
+     - 🇭🇰 Hong Kong 07  
+     - 🇭🇰 Hong Kong 08
   - name: "🇸🇬 新加坡节点"
     type: fallback
-    use:
-      - Proxies - SG
-    url: http://cp.cloudflare.com/generate_204
-    interval: 3600
-  - name: "🇯🇵 日本节点"
-    type: fallback
-    use:
-      - Proxies - JP
-    url: http://cp.cloudflare.com/generate_204
-    interval: 3600
-  - name: "🇰🇷 韩国节点"
-    type: fallback
-    use:
-      - Proxies - KR
-    url: http://cp.cloudflare.com/generate_204
-    interval: 3600
+   Proxies:
+     - 🇸🇬 Singapore 01
+     - 🇸🇬 Singapore 02
+     - 🇸🇬 Singapore 03
+     - 🇸🇬 Singapore 04
   - name: "🇺🇸 美国节点"
-    type: fallback
-    use:
-      - Proxies - US
-    url: http://cp.cloudflare.com/generate_204
-    interval: 3600
-  - name: "📌 手动选择"
     type: select
-    use:
-      - Proxies - HK
-      - Proxies - SG
-      - Proxies - TW
-      - Proxies - JP
-      - Proxies - KR
-      - Proxies - US
+   Proxies:
+     - 🇺🇸 United States 01
+     - 🇺🇸 United States 02
+     - 🇺🇸 United States 03
+     - 🇺🇸 United States 04
   - name: "⭕️ 直连"
     type: select
     proxies:
@@ -375,10 +318,10 @@ rule-providers:
     url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Special.yaml
     path: ./Rules/Special.yaml
     interval: 86400
-  Reject:
+  AdBlock:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
+    url: https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AdBlock.yaml
     path: ./Rules/Reject.yaml
     interval: 86400
 # 国内媒体分组
@@ -702,21 +645,26 @@ rule-providers:
 rules:
   # 直连和广告拦截
   - RULE-SET,Special,DIRECT
-  - RULE-SET,Reject,🚫 广告拦截
+  - RULE-SET,AdBlock,🚫 广告拦截
   # 国内媒体分组
   - RULE-SET,Bilibili,📽 国内媒体
   - RULE-SET,IQ,📽 国内媒体
   - RULE-SET,IQIYI,📽 国内媒体
   - RULE-SET,Letv,📽 国内媒体
-  - RULE-SET,Netease Music,📽 国内媒体 #🎵 网易云音乐
+  - RULE-SET,Netease Music,📽 国内媒体
   - RULE-SET,Tencent Video,📽 国内媒体
   - RULE-SET,Youku,📽 国内媒体
   - RULE-SET,WeTV,📽 国内媒体
+  
+  # 人工智能和苹果服务
+  - RULE-SET,Apple,🍏 苹果服务
+  - RULE-SET,AI Suite,🔖 人工智能
+  
   # 国际媒体分组
-  - RULE-SET,Netflix,🎥 国际媒体 #📺 网飞视频
-  - RULE-SET,Disney Plus,🎥 国际媒体 #🎬 迪士尼+
-  - RULE-SET,Spotify,🎥 国际媒体 #🎧 声田音乐
-  - RULE-SET,YouTube,🎥 国际媒体 #📹 油管视频
+  - RULE-SET,Netflix,🎥 国际媒体
+  - RULE-SET,Disney Plus,🎬 迪士尼+
+  - RULE-SET,Spotify,🎥 国际媒体
+  - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,YouTube Music,🎥 国际媒体
   - RULE-SET,ABC,🎥 国际媒体
   - RULE-SET,Abema TV,🎥 国际媒体
@@ -747,22 +695,16 @@ rules:
   - RULE-SET,Soundcloud,🎥 国际媒体
   - RULE-SET,ViuTV,🎥 国际媒体
   
-  # 人工智能和苹果服务
-  - RULE-SET,AI Suite,🔖 人工智能
-  - RULE-SET,Apple,🍏 苹果服务
-  
   # 电报、微软、贝宝及 Steam 可选规则，如需为某个规则列表单独设置策略，请直接修改策略名称与上方策略组名称保持一致
-  - RULE-SET,Microsoft,🥏 大陆网络 #📦 微软服务
-  - RULE-SET,Telegram,✈️ 国际代理 #📡 电报服务
-  - RULE-SET,PayPal,✈️ 国际代理 #💳 贝宝服务
-#  - RULE-SET,Steam,🎮 蒸汽游戏
+  - RULE-SET,Telegram,✈📡 电报服务
+  - RULE-SET,PayPal,✈💳 贝宝服务
+  - RULE-SET,Microsoft,📦 微软服务
 
   # 必须规则
-  - RULE-SET,Speedtest,⏳ 网速测试
   - RULE-SET,Proxy,✈️ 国际代理
   - RULE-SET,Domestic,🥏 大陆网络
   - RULE-SET,LAN,DIRECT
 
   # 最终规则
-  - GEOIP,CN,🥏 大陆网络
+  - GEOIP,CN,DIRECT
   - MATCH,🔗 其他
